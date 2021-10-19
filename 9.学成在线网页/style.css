@@ -1,0 +1,524 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.header {
+    height: 42px;
+    margin: 30px auto;
+}
+
+.logo {
+    float: left;
+    width: 198px;
+    height: 42px;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    display: block;
+    height: 42px;
+    padding: 0 10px;
+    line-height: 42px;
+    font-size: 18px;
+    color: rgb(66, 66, 67);
+}
+
+.nav ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+    color: #00a4ff;
+}
+
+/* 搜索框 */
+
+.sousuo {
+    float: left;
+    width: 412px;
+    height: 42px;
+    margin-left: 70px;
+}
+
+.sousuo input::placeholder {
+    color: #bfbfbf;
+}
+
+.sousuo input {
+    float: left;
+    width: 345px;
+    height: 40px;
+    border: 1px solid #00a4ff;
+    border-right: 0;
+    color: black;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.sousuo button {
+    float: left;
+    width: 50px;
+    height: 40px;
+    border: 0px;
+    background-image: url(images/fa-search.png);
+}
+
+/* 用户框 */
+
+.user {
+    float: right;
+    width: 83px;
+    height: 32px;
+    margin-right: 30px;
+    margin-top: 7px;
+    font-size: 14px;
+    color: #666;
+}
+
+.user img {
+    vertical-align: middle;
+}
+
+/* 中间部分开始 */
+
+.banner {
+    width: 100%;
+    height: 420px;
+    background-color: #1c036c;
+}
+
+/* 左侧浮动盒子 */
+
+.subnav {
+    float: left;
+    width: 191px;
+    height: 420px;
+    background: rgba(0, 0, 0, .3);
+}
+
+.subnav a {
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 24px;
+}
+
+.subnav span {
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    margin-left: 80px;
+}
+
+.subnav a:hover {
+    color: #00b4ff;
+}
+
+.subnav a:hover span {
+    color: #00b4ff;
+}
+
+/* 中间背景图片 */
+
+#box {
+    height: 420px;
+    background: url(images/banner2.png) no-repeat top center;
+}
+
+/* 右侧浮动课程表盒子 */
+
+.course {
+    float: right;
+    width: 230px;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    background-color: #ffffff;
+}
+
+.course h2 {
+    height: 48px;
+    background-color: #9bceea;
+    font-size: 18px;
+    line-height: 48px;
+    color: white;
+    text-align: center;
+}
+
+.bd h4 {
+    height: 16px;
+    color: #4e4e4e;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 14px;
+    margin-bottom: 5px;
+}
+
+#ding {
+    margin-top: 20px;
+}
+
+.bd p {
+    width: 192px;
+    height: 12px;
+    color: #a5a5a5;
+    font-size: 12px;
+    margin-left: 20px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #efefef;
+}
+
+.more {
+    display: inline-block;
+    width: 194px;
+    height: 40px;
+    font-size: 16px;
+    color: #00a4ff;
+    border: solid 1px #22b0ff;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 18px;
+    margin-top: 5px;
+}
+
+/* 中间部分中部，导航条 */
+
+.goods {
+    margin-top: 8px;
+    margin-bottom: 35px;
+    height: 61px;
+    box-shadow: 4px 3px 5px 3px rgba(0, 0, 0, .3);
+}
+
+.goods h3 {
+    float: left;
+    font-size: 18px;
+    color: #0fa9ff;
+    margin-left: 35px;
+    line-height: 61px;
+    margin-right: 35px;
+}
+
+.goods span {
+    float: left;
+    font-size: 18px;
+    color: #dadada;
+    line-height: 61px;
+}
+
+.goods li {
+    float: left;
+    font-size: 14px;
+    color: #0b0b0b;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 61px;
+}
+
+#right {
+    float: right;
+    font-size: 12px;
+    line-height: 61px;
+    margin-right: 26px;
+    color: #00a4ff;
+}
+
+/* 中间部分下部  课程精品推荐 */
+
+.jingping {
+    height: 20px;
+    width: 1200px;
+    margin-bottom: 20px;
+}
+
+.jingping h3 {
+    float: left;
+    font-size: 20px;
+}
+
+.jingping a {
+    float: right;
+    font-size: 12px;
+    color: #a5a5a5;
+    margin-top: 8px;
+}
+
+/* 中间部分下部 课程  */
+
+/* 第一个盒子 */
+
+.box1 {
+    width: 1225px;
+}
+
+.box1 li {
+    float: left;
+    width: 228px;
+    height: 270px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.box1 li {
+    position: relative;
+}
+
+.box1 li .hot {
+    position: absolute;
+    top: 5px;
+    right: -2px;
+}
+
+.wenzi h4 {
+    margin-top: 25px;
+    margin-bottom: 3px;
+    margin-left: 25px;
+    font-size: 14px;
+    color: black;
+}
+
+.wenzi .wenzi3 {
+    display: block;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.wenzi1 {
+    margin-left: 25px;
+    font-size: 12px;
+    color: #ff7c2d;
+}
+
+.wenzi2 {
+    font-size: 12px;
+    color: #999999;
+}
+
+/* 中间部分下部导航栏，编程入门 */
+
+.rumen {
+    width: 1184px;
+    padding-top: 22px;
+    padding-left: 17px;
+    height: 20px;
+    margin-bottom: 18px;
+}
+
+.rumen1 {
+    float: left;
+    font-size: 20px;
+    line-height: 20px;
+    margin-right: 280px;
+}
+
+.rumen2 {
+    float: left;
+    font-size: 16px;
+    line-height: 16px;
+    color: #959595;
+    margin-left: 56px;
+}
+
+.rumen2:hover {
+    color: #41bafd;
+}
+
+.rumen3 {
+    float: right;
+    font-size: 12px;
+    line-height: 20px;
+    color: #bdbdbe;
+}
+
+/* 中间部分下部 编程入门 */
+
+.bcrm {
+    height: 392px;
+}
+
+.bcrm1 {
+    float: left;
+    width: 193px;
+    height: 345px;
+    background-image: url(images/图层148.png);
+    background-repeat: no-repeat;
+    background-size: 228px 392px;
+    padding-left: 35px;
+    padding-top: 47px;
+    margin-right: 15px;
+}
+
+.bcrm1 h4 {
+    font-size: 18px;
+    color: white;
+}
+
+#bian {
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.bcrm1 li {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.bcrm2 {
+    float: right;
+    width: 957px;
+    height: 100px;
+    background-image: url(images/图层155.png);
+    margin-bottom: 23px;
+}
+
+.bcrm3 {
+    float: left;
+    width: 228px;
+    height: 269px;
+    margin-right: 14px;
+}
+
+.bcrm3 li {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+#z1 {
+    font-size: 14px;
+    color: #050505;
+}
+
+#z2 {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #999999;
+}
+
+#z2 span {
+    color: #ff9159;
+}
+
+.xx {
+    margin-right: 0;
+}
+
+/* 数据分析师导航栏，同上 */
+
+/* 中间下部，数据分析师，同上 */
+
+.sjfxs {
+    background-image: url(images/图层153.png);
+}
+
+.sjfxs1 {
+    background-image: url(images/图层152.png);
+}
+
+/* 机器学习工程师 */
+
+.a {
+    margin-right: 15px;
+}
+
+.xx {
+    margin-right: 0;
+}
+
+/* 尾部 */
+
+.footer {
+    width: 100%;
+    height: 415px;
+    margin-top: 40px;
+    background-color: #ffffff;
+}
+
+.zuo {
+    float: left;
+}
+
+.footer img {
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+.footer p {
+    width: 432px;
+    height: 35px;
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: 宋体;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+
+.xiazaiapp {
+    display: block;
+    width: 118px;
+    height: 35px;
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 35px;
+    border: 1px solid #00a4ff;
+    color: #00a4ff;
+    text-align: center;
+}
+
+.links {
+    float: right;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+.links dl {
+    float: left;
+    margin-left: 100px;
+}
+
+.links dl dt {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.links dl dd a {
+    color: #333;
+    font-size: 12px;
+}
