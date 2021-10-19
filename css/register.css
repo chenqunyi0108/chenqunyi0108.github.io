@@ -1,0 +1,168 @@
+/* logo制作 start */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.logo a {
+    display: block;
+    height: 82px;
+    width: 200px;
+    background: url(../images/logo.png) no-repeat;
+    background-position: left;
+}
+
+/* logo制作 end */
+
+/* 主体注册表界面制作 start */
+
+.registerarea {
+    height: 523px;
+    border: 1px solid #e9e9e9;
+    margin-top: 20px;
+}
+
+.registerarea h3 {
+    height: 43px;
+    background-color: #ececec;
+    line-height: 43px;
+    padding-left: 5px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.registerarea label {
+    display: inline-block;
+    width: 90px;
+    height: 36px;
+    text-align: right;
+}
+
+.registerarea .login {
+    position: relative;
+    right: 10px;
+    float: right;
+    font-size: 14px;
+}
+
+.registerarea .login a {
+    color: #cc333e;
+}
+
+.reg_form {
+    width: 550px;
+    height: 420px;
+    margin: 50px auto;
+}
+
+.int {
+    border: 1px solid #b0b0b0;
+    width: 240px;
+    height: 36px;
+}
+
+.reg_form ul li {
+    margin: 20px 0;
+}
+
+.error, .success {
+    width: 204px;
+    height: 20px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.error_icon, .success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.error_icon {
+    background: url(../images/error.png) no-repeat;
+}
+
+.success_icon {
+    background: url(../images/success.png) no-repeat;
+}
+
+.safe {
+    padding-left: 169px;
+}
+
+.safe .zhong, .safe .ruo, .safe .qiang {
+    display: inline-block;
+    width: 34px;
+    height: 13px;
+    color: white;
+    text-align: center;
+    line-height: 13px;
+}
+
+.safe .ruo {
+    background-color: #de1111;
+}
+
+.safe .zhong {
+    background-color: #40b83f
+}
+
+.safe .qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    font-size: 12px;
+    padding-left: 90px;
+}
+
+.agree input {
+    vertical-align: middle;
+    width: 16px;
+    height: 15px;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.btn {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 110px;
+}
+
+/* 主体注册表界面制作 end */
+
+/* mod_copyright模块制作 start */
+
+.mod_copyright {
+    text-align: center;
+}
+
+.mod_copyright_1 {
+    margin: 20px 0;
+    font-size: 12px;
+}
+
+.mod_copyright a {
+    margin: 0 5px;
+}
+
+.mod_copyright p {
+    font-size: 12px;
+    text-align: center;
+}
+
+/* mod_copyright模块制作 end */

@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?tomleg') format('truetype'), url('../fonts/icomoon.woff?tomleg') format('woff'), url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+/* nav模块制作 start */
+
+.nav {
+    width: 100%;
+    border-bottom: 2px solid #b1191a;
+    height: 45px;
+}
+
+.fl {
+    float: left;
+}
+
+.sk_list ul li, .sk_con ul li {
+    float: left;
+    height: 45px;
+}
+
+.sk_list ul li a {
+    display: block;
+    font-size: 16px;
+    line-height: 45px;
+    font-weight: 800;
+    padding: 0 30px;
+}
+
+.sk_con ul li a {
+    display: block;
+    font-size: 14px;
+    line-height: 45px;
+    padding: 0 19px;
+}
+
+.sk_con ul li:last-child a {
+    font-family: 'icomoon';
+    padding: 0;
+}
+
+/* nav模块制作 end */
+
+/* 列表页主体部分制作 start */
+
+.yetou {
+    margin-bottom: 30px;
+}
+
+.box {
+    float: left;
+    width: 288px;
+    height: 460px;
+    margin-right: 12px;
+    margin-bottom: 30px;
+    border: 1px solid transparent;
+}
+
+.box:hover {
+    border: 1px solid red;
+}
+
+.box p {
+    width: 100%;
+    font-size: 14px;
+    color: #babab8;
+    padding-left: 5px;
+}
+
+.span1 {
+    font-size: 20px;
+    color: red;
+    padding-left: 5px;
+}
+
+.span2 {
+    font-size: 14px;
+    color: #adada6;
+    text-decoration: line-through;
+}
+
+.box1 {
+    width: 100%;
+    padding-left: 5px;
+}
+
+.span3, .span5 {
+    float: left;
+    font-size: 14px;
+}
+
+.span3::after {
+    content: '87%';
+    color: red;
+}
+
+.span5::after {
+    content: '29件';
+    color: red;
+}
+
+.box2 {
+    position: relative;
+    float: left;
+    width: 130px;
+    height: 19px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.span4 {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    background-color: red;
+    width: 0%;
+    height: 17px;
+    border-radius: 7px 0px 0px 7px;
+    transition: all .7s;
+}
+
+.box2:hover .span4 {
+    width: 87%;
+}
+
+.box3 {
+    width: 288px;
+    height: 60px;
+    background-color: red;
+    text-align: center;
+    margin-top: 17px;
+    padding-left: 1px;
+}
+
+.box3 a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+/* 列表页主体部分制作 end  */
+
+.logo {
+    position: relative;
+}
+
+.miaosha {
+    position: absolute;
+    top: 20px;
+    left: 190px;
+    width: 90px;
+    height: 35px;
+    border-left: 1px solid #b1191a;
+    padding-left: 15px;
+}
+
+.header {
+    position: relative;
+    height: 120px;
+}
