@@ -108,6 +108,7 @@
 .main {
     position: relative;
     height: 466px;
+    z-index：2;
 }
 
 .focus {
